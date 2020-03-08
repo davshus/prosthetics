@@ -1,0 +1,22 @@
+.navbar {
+    width: 100%;
+    /*background: black;*/
+    background: white;
+    /*box-shadow: black 0 0 6px 0px;*/
+    /*height: 48px;*/
+}
+.title {
+    /*position: absolute;*/
+    /*color: #78dbff;*/
+    /*font-weight: 600;*/
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 32px;
+    font-family: Cantarell;
+    margin-left: 8px;
+    text-align: center;
+    /*background: -webkit-linear-gradient(bottom right, #5c89a8, #7ebce6);*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+}

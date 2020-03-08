@@ -1,0 +1,34 @@
+.choice-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.choice-frame {
+    display: flex;
+    flex-direction: row;
+    /*min-width: 50%;*/
+    justify-content: space-evenly;
+    /*min-width: 20%;*/
+    /*padding: 32px;*/
+}
+.choice:not(:first-child) {
+    margin-left: 16px;
+}
+.choice {
+    text-align: center;
+}
+.choice span {
+    font-family: Montserrat;
+    font-size: 48px;
+}
+.choice-icon {
+    height: 512px;
+}
+.choice:hover {
+    background: #171717;
+    cursor: pointer;
+}
